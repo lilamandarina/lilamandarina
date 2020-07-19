@@ -6,17 +6,17 @@
 body{
 	background-image: url(img/fondo.jpg);
 	font-size: 16px;
-	/*min-height: 100%*/
+	min-height: 100%
 	
 
 	/*color:#000;*/
 
 }
 
-/*html{
+html{
 	height:100%;
 
-}*/
+}
 
 	.container{
 
@@ -52,7 +52,7 @@ body{
 	justify-content: center;
 	text-align: center;
 
-grid-area: navegacion;
+grid-area: navegacion; 
 }
 
 
@@ -107,6 +107,7 @@ grid-area: navegacion;
 	margin-top:10px;
 	display:flex;
 	justify-content: center;
+
 	grid-area: box2;
 
 	
@@ -178,6 +179,8 @@ grid-area: navegacion;
 	grid-area: footer;
 }
 
+@media screen and (min-width:600px)
+	
 
 
 
