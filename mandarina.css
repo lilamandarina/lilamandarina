@@ -6,22 +6,18 @@
 body{
 	background-image: url(img/fondo.jpg);
 	font-size: 16px;
-	min-height: 100%
+	
 	
 
 	/*color:#000;*/
 
 }
 
-html{
-	height:100%;
 
-}
 
 	.container{
 
-	grid-template-areas: "container" "navegacion"  "box1" "texto" "box2"
-	"box3" "box4" "box5" "info" "footer";
+	
 
 	display: grid;
 	grid-template-columns: repeat (4, 1fr);
@@ -29,7 +25,6 @@ html{
 	
 	margin:5px;
 
-	grid-area: container;
 
 	
 }
@@ -52,7 +47,7 @@ html{
 	justify-content: center;
 	text-align: center;
 
-grid-area: navegacion; 
+
 }
 
 
@@ -78,7 +73,7 @@ grid-area: navegacion;
 	display:flex;
 	justify-content: center;	
 
-	grid-area: box1;
+	
 }
 
 	.texto{
@@ -95,7 +90,6 @@ grid-area: navegacion;
 	margin:5px;
 	padding:5px;
 
-	grid-area: texto;
 	
 }
 
@@ -108,8 +102,7 @@ grid-area: navegacion;
 	display:flex;
 	justify-content: center;
 
-	grid-area: box2;
-
+	
 	
 	
 }
@@ -124,7 +117,6 @@ grid-area: navegacion;
 	display:flex;
 	justify-content: center;
 
-	grid-area: box3;
 	
 }
 	
@@ -136,7 +128,7 @@ grid-area: navegacion;
 	display:flex;
 	justify-content: center;
 
-	grid-area: box4;
+	
 
 }
 	.box5{
@@ -147,8 +139,7 @@ grid-area: navegacion;
 	display:flex;
 	justify-content: center;
 
-	grid-area: box5;
-}
+	
 	.info{
 
 	grid-column: 1/5;
@@ -159,7 +150,7 @@ grid-area: navegacion;
 	font-size: 30px;
 	height: 50px;
 
-	grid-area: info;
+	
 
 }
 	.footer{
@@ -176,10 +167,9 @@ grid-area: navegacion;
 	margin-left: 10px;
 	padding: 5px;
 
-	grid-area: footer;
+	
 }
 
-@media screen and (min-width:600px)
 	
 
 
