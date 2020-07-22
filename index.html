@@ -12,7 +12,7 @@
 
   <div class="container">
 
- <<nav class="navegacion">
+ <nav class="navegacion">
     <ul>
         <li class="inicio"><a href="index.html">Inicio</a></li>
          <li><a href="productos.html">Productos</a></li>
@@ -20,7 +20,46 @@
 </ul>
 </nav>
 
- <div class="box1"> <a href="./productos.html"><img src="img/primera.jpg"></a></div>
+<div class="slider">
+<a href="./productos.html"><img name="slider" width="auto" height="auto"></a>
+
+  <script>
+    window.addEventListener('load', function() {
+      console.log('el contenido ha cargado!')
+      
+
+       var imagenes = [];
+
+      imagenes[0]='img/slider1.jpg';
+      imagenes[1]='img/slider2.jpg';
+      imagenes[2]='img/slider3.jpg';
+      imagenes[3]='img/slider4.jpg';
+
+
+      var indiceImagenes = 0;
+      var tiempo= 1000;
+      
+
+            function cambiarImagenes() {
+              document.slider.src=imagenes[indiceImagenes]
+              
+if (indiceImagenes<2){
+  indiceImagenes++;
+}
+else{
+  indiceImagenes=0;
+}
+}
+  
+setInterval(cambiarImagenes, tiempo);
+  
+
+}); 
+  
+  </script>
+  </div>
+
+ <!--<div class="box1"> <a href="./productos.html"><img src="img/primera.jpg"></div>-->
 
    <p class="texto">ENVIOS SIN CARGO LA PLATA</p>
 
