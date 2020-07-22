@@ -159,6 +159,7 @@ a:hover{
 	
 	}
 
+
 .box3{
 	grid-area: box3;
 	/*grid-column: 3/5;
@@ -199,20 +200,38 @@ img{
 .info{
 	grid-area: info;
 
+	
+	
 	/*grid-column: 1/5;
 	grid-row:9/10;*/
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
 	background: #819BC4;
+	border-radius: 3px;
 
 	/*border-radius: 0,125rem;*/
-	border-radius: 2px;
+	
 	/*margin-right: 0,625rem;
 	margin-left: 0,625rem;*/
 	margin-right: 10px;
 	margin-left: 10px;
 	color:white;
-	font-size: 2,14em;
+	
 	/*font-size: 30px;*/
 }
+
+.info:hover{
+		background: white;
+	}
+.hola{
+	width: 70px;
+	height: 70px;
+	
+}
+
 
 .footer{
 	grid-area: footer;
@@ -237,7 +256,6 @@ img{
 	/*border-radius: 0,125rem;*/
 	border-radius: 2px;
 }
-
 
 
 
