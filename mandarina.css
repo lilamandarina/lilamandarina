@@ -75,13 +75,13 @@ a:hover{
 		
 		grid-area: slider
 		width: 650px;
-		height: 650px;
+		height: auto;
 		display: flex;
 		align-content: center;
 		justify-content: center;
-
-		padding-bottom: 10px;
+		
 		padding-top:5px;
+		/*padding-bottom: 10px;*/
 	}
 
 
