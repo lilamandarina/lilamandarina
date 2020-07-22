@@ -16,9 +16,9 @@ body{
 
 
 	
-	margin:5px;
-	margin-top:25px;
-
+	margin:0,3125em;
+	margin-top:1,5625em;
+width: 100%;
 
 	display: grid;
 	/*grid-template-columns: repeat (4, 1fr);
@@ -45,12 +45,10 @@ body{
 
 	background: #819BC4;
 	font-family: roboto;
-	font-size: 20px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top:0px;
-
-
+	font-size: 1.25em;
+	margin-right: 0,625rem;
+	margin-left: 0,625rem;
+	
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -69,7 +67,7 @@ body{
 
 	display: block;
 	color: black;
-	 padding: 5px 25px;
+	 padding: 0,3125rem 1,5625rem;
 	 font-size: 1em;
 }
 
@@ -86,21 +84,17 @@ body{
 
 	background-image: url(img/fondodos.jpg);
 
-	margin-right:10px;
-	margin-left: 10px;
+	margin-right:0,625rem;
+	margin-left: 0,625rem;
 	
-	margin-bottom: 10px;
+	margin-bottom: 0,625rem;
 
-
-	padding:5px;
+	padding:0,3125rem;
 	
 	display:flex;
 	justify-content: center;	
 
-	border-radius: 2px;
-	
-
-	
+	border-radius: 0,125rem;
 }
 
 	/*.box1:hover{
@@ -109,9 +103,9 @@ body{
 
 	img:hover{
 		background: black;
-		
-
 	}
+
+	
 
 	.texto{
 
@@ -123,17 +117,14 @@ body{
 	background: white;
 	text-align: center;
 	font-family: roboto;
-	font-size: 30px;
-	margin-bottom: 15px;
-	margin:10px;
-	padding:5px;
+	font-size: 1.875em;
+	margin-bottom: 0,9375rem;
+	margin:0,625rem;
+	padding:0,3125rem;
 	align-content: center;
 	justify-content: center;
 
-	border-radius: 2px;
-
-
-	
+	border-radius: 0,125rem;	
 }
 
 	.box2{
@@ -143,7 +134,7 @@ body{
 
 	grid-area: box2;
 
-	margin-top:10px;
+	margin-top:0,625rem;
 	display:flex;
 	justify-content: center;
 	
@@ -155,13 +146,11 @@ body{
 
 	grid-area: box3;
 
-	margin-top:10px;
-	margin-bottom:5px;
+	margin-top:0,625rem;
+	margin-bottom:0,3125rem;
 
 	display:flex;
 	justify-content: center;
-
-	
 }
 
   	.box4{
@@ -184,7 +173,8 @@ body{
 
 	display:flex;
 	justify-content: center;
-	}
+
+}
 
 	
 	.info{
@@ -196,15 +186,14 @@ body{
 
 	background: black;
 	color:white;
-	font-size: 30px;
-	height: 50px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top:5px;
+	font-size: 1,875em;
+	height: 3,125rem;
+	margin-right: 0,625rem;
+	margin-left: 0,625rem;
+	margin-top:0,3125rem;
 
-	border-radius: 2px;
+	border-radius: 0,125rem;
 	
-
 }
 	.footer{
 
@@ -216,28 +205,28 @@ body{
 
 	grid-area: footer;
 	text-align: center;
-	margin:5px;
-	font-size: 15px;
+	margin:0,3125rem;
+	font-size: 0,9375em;
 	font-family: roboto;
-	margin-right: 10px;
-	margin-left: 10px;
-	padding: 5px;
+	margin-right: 0,625rem;
+	margin-left: 0,625rem;
+	padding: 0,3125rem;
 
-	border-radius: 2px;
+	border-radius: 0,125rem;
 	
 }
 
 @media screen and (min-width: 600px){
 	.container{
-	grid-template:
+	grid-template-areas:
 	
-	"navegacion navegacion" auto
-	"box1 box1" auto
- 	"texto texto"auto
-	"box2 box3"auto
-	"box4 box5" auto
-	"info"auto
-	"footer footer"auto; 
+	"navegacion navegacion" 
+	"box1 box1"
+ 	"texto texto"
+	"box2 box3"
+	"box4 box5"
+	"info"
+	"footer footer"; 
 	}
 }
 
