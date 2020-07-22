@@ -72,7 +72,6 @@ a:hover{
 
 	.slider{
 
-		
 		grid-area: slider
 		width: 650px;
 		height: auto;
@@ -240,28 +239,6 @@ img{
 }
 
 
-/*@media screen and (min-width: 600px){
 
-	html{
-		width:100%;
-	}
-	body{
-		width:100%;
-	}
-	/*.container{
-		
-	grid-template-areas:
-	"navegacion" 100%
-	"box1"100%
- 	"texto"100%
-	"box2" 100%
-	"box3"100%
-	"box4"100%
-    "box5"100%
-	"info"100%
-	"footer"100%; 
-	}*/
-
-}*/
 
 	
