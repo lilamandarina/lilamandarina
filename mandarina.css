@@ -1,12 +1,15 @@
 
-*{
+*{ box-sizing: border-box;
 	margin:0;
 	padding:0;
+}
+html{
+	width:100%;
 }
 body{
 	background-image: url(img/sky2.jpg);
 	font-size: 16px;
-	width:  100%;
+	
 
 	/*color:#000;*/
 
@@ -14,7 +17,7 @@ body{
 	.container{
 
 
-		height: 100%;
+	max-width:100%;
 	margin:5px;
 	margin-top:25px;
 
@@ -24,6 +27,7 @@ body{
 	grid-template-rows: repeat (4, 1fr);*/
 
 	grid-template-areas: 
+	
 	"navegacion"
 	"box1"
 	"texto"
@@ -225,9 +229,10 @@ body{
 	
 }
 
-@media (max-width: 600px){
+@media (min-width: 600px){
 	.container{
 	grid-template-areas:
+	
 	"navegacion navegacion"
 	"box1 box1"
  	"texto texto"
