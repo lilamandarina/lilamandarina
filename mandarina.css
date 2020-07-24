@@ -8,7 +8,7 @@
 	font-family: "roboto";
 }
 body{
-	
+	background: #f1f1f1;
 	font-size: 16px;
 }
 
@@ -26,7 +26,6 @@ body{
 	
 	"navegacion"
 	"slider"
-	/*"box1"*/
 	"texto"
 	"box2" 
 	"box3"
@@ -45,13 +44,19 @@ body{
 	/*grid-column: 2/4;
 	grid-row:1/2;*/
 
-	background: #819BC4;
+	/*background: #819BC4;*/
+	background: white;
 	/*font-size: 20px;*/
 	font-size: 1.25em;
 	/*margin-right: 10px;*/
-	margin-left: 10px;
+	
+
+	margin-left: 0.625em;
 
 	position: fixed;
+	top: 0%;
+	left: 70%;
+	translate: -50% +50%;
 }
 
 .navegacion, ul, li{
@@ -66,10 +71,13 @@ a{
 	padding:0.35em 0.35em;
 }
 
-a:hover{
-		background: white;
-	}
+.lista1:hover{
+		background:black;
+}
 
+.uno:hover{
+	background: #819BC4;
+}
 	.slider{
 
 		grid-area: slider
@@ -129,17 +137,21 @@ a:hover{
 	/*grid-column: 2/4;
 	grid-row:4/5;*/
 
-    background: #819BC4;
+    
 	text-align: center;
+	font-weight: 700;
+
+	
 	
 
 	/*margin: 10px;
 	margin-bottom: 10px;*/
-	margin: 0.25em;
+	margin-right: 0.25em;
+	margin-left: 0.25em;
 	margin-bottom:0.25em;
 	
 	/*font-size: 30px;*/
-	font-size: 1.56em;
+	font-size: 1.875em;
 
 	border-radius: 0,125rem;
 	/*border-radius: 2px;*/
@@ -209,7 +221,7 @@ img{
 	justify-content: center;
 	align-content: center;
 
-	background: #819BC4;
+	
 	border-radius: 3px;
 
 	/*border-radius: 0,125rem;*/
@@ -225,6 +237,7 @@ img{
 
 .info:hover{
 		background: white;
+		opacity: 80%;
 	}
 .hola{
 	width: 70px;
@@ -237,9 +250,9 @@ img{
 	grid-area: footer;
 	/*grid-column: 1/5;
 	grid-row:10/11;*/
-	background: #819BC4;
+	
 	/*font-size: 0,9375em;*/
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 
 	/*margin:0,3125rem;*/
@@ -259,4 +272,11 @@ img{
 
 
 
-	
+	@media screen and (max-width: 600px){
+		.navegacion{
+			position: fixed;
+			left:10%;
+
+		}
+
+}
