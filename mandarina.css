@@ -136,13 +136,9 @@ a{
 
 	/*grid-column: 2/4;
 	grid-row:4/5;*/
-
-    
+  
 	text-align: center;
 	font-weight: 700;
-
-	
-	
 
 	/*margin: 10px;
 	margin-bottom: 10px;*/
@@ -155,7 +151,7 @@ a{
 
 	border-radius: 0,125rem;
 	/*border-radius: 2px;*/
-	padding:0,3125rem;
+	/*padding:0,3125rem;*/
 	/*padding:5px;*/
 
 }
@@ -240,8 +236,8 @@ img{
 		opacity: 80%;
 	}
 .hola{
-	width: 70px;
-	height: 70px;
+	width: 4.375em;
+	height: 4.372em;
 	
 }
 
