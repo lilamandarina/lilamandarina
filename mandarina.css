@@ -196,8 +196,6 @@ img{
 .info{
 	grid-area: info;
 
-	
-	
 	/*grid-column: 1/5;
 	grid-row:9/10;*/
 
@@ -207,28 +205,23 @@ img{
 
 	
 	border-radius: 3px;
-
 	/*border-radius: 0,125rem;*/
-	
-	/*margin-right: 0,625rem;
-	margin-left: 0,625rem;*/
-	margin-right: 10px;
-	margin-left: 10px;
-	color:white;
-	
-	/*font-size: 30px;*/
 }
 
-.info:hover{
-		background: white;
-		opacity: 80%;
-	}
+	.logo:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+}
+
 .hola{
 	width: 4.375em;
 	height: 4.372em;
 	
 }
-
 
 .footer{
 	grid-area: footer;
@@ -256,18 +249,19 @@ img{
 
 .float{
 	position:fixed;
-	width:60px;
+	width:60px;  
 	height:60px;
-	bottom:40px;
-	right:40px;
+	bottom:40px;               
+	right:30px;
 	background-color:#25d366;
 	color:#FFF;
-	border-radius:50px;
+	border-radius:70px;
 	text-align:center;
-  font-size:1.875em;
+    font-size:28px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    z-index:100;
 }
+
 .float:hover {
 	text-decoration: none;
 	color: #25d366;
