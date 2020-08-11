@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: "roboto";
+}
+body{
+
+	background: #204e70;
+	font-size: 16px;
+	
+}
+
+.container{
+	
+	margin:5px;
+	height: auto;
+
+	display:grid;
+	grid-template-columns: repeat (4, 1fr);
+	grid-template-rows: repeat (9, 1fr);
+	
+
+
+	/*grid-template-areas: */
+	}
+.navegacion{
+	/*grid-area: navegacion;*/
+	margin-top: 0.5em;
+	display:flex;
+	align-content: right;
+
+	/*grid-column: 2/4;
+	grid-row:1/2;*/
+
+	/*background: #819BC4;*/
+	background: white;
+	/*font-size: 25px;*/
+	font-size: 1.5625em;
+	/*margin-right: 10px;*/
+	
+
+	margin-left: 0.625em;
+
+	position: fixed;
+	top: 0%;
+	left: 70%;
+	translate: -50% +50%;
+
+	border-radius: 10px;
+}
+
+.navegacion, ul, li{
+	display: inline-block;
+	
+}
+a{
+	list-style-type: none;
+	display: block;
+	color: black;
+	/*padding: 10px 5px;*/
+	padding:0.35em 0.35em;
+}
+
+
+.uno:hover{
+	background: #e4afb1;
+	color:#204e70;
+	border-radius: 8px;
+	 
+}
+
+
+.aside{
+	grid-column: 4/5;
+	grid-row:2/7;
+	width: 300px;
+	background: #e4afb1;
+	color:#204e70;
+	margin:10px;
+	border-radius: 8px;
+	border-color:#000; 
+}
+
+.amigas{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
