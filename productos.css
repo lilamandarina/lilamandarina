@@ -12,41 +12,22 @@ body{
 	
 }
 
-.container{
-	
-	margin:5px;
-	height: auto;
-
-	display:grid;
-	grid-template-columns: repeat (4, 1fr);
-	grid-template-rows: repeat (9, 1fr);
-	
-
-
-	/*grid-template-areas: */
-	}
 .navegacion{
-	/*grid-area: navegacion;*/
-	margin-top: 0.5em;
+	margin-top: 0.625em;
 	display:flex;
 	align-content: right;
-
-	/*grid-column: 2/4;
-	grid-row:1/2;*/
 
 	/*background: #819BC4;*/
 	background: white;
 	/*font-size: 25px;*/
 	font-size: 1.5625em;
 	/*margin-right: 10px;*/
-	
-
 	margin-left: 0.625em;
 
 	position: fixed;
 	top: 0%;
 	left: 70%;
-	translate: -50% +50%;
+	
 
 	border-radius: 10px;
 }
@@ -55,6 +36,7 @@ body{
 	display: inline-block;
 	
 }
+
 a{
 	list-style-type: none;
 	display: block;
@@ -63,28 +45,155 @@ a{
 	padding:0.35em 0.35em;
 }
 
-
 .uno:hover{
 	background: #e4afb1;
 	color:#204e70;
 	border-radius: 8px;
-	 
 }
 
-
-.aside{
-	grid-column: 4/5;
-	grid-row:2/7;
-	width: 300px;
-	background: #e4afb1;
-	color:#204e70;
-	margin:10px;
-	border-radius: 8px;
-	border-color:#000; 
+.float{
+	position:fixed;
+	width:60px;  
+	height:60px;
+	bottom:40px;               
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:70px;
+	text-align:center;
+    font-size:28px;
+	box-shadow: 1px 1px 2px #999;
+    z-index:100;
 }
 
-.amigas{
-	font-size: 30px;
+.float:hover{
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.logo{
 	text-align: center;
-	margin-top: 5px;
+	margin:0.625em;
+	padding:0.625em;
+	padding-bottom: 0;
+	padding-top: 20px;
+}
+
+.container{
+	margin:10px;
+	height: auto;
+	background: white;
+	border-radius: 5px;
+
+}
+
+.primeraseccion{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.segundaseccion{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.terceraseccion{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-radius: 3px;
+}
+
+.descripcionventa{
+
+    text-align: center;
+}
+
+.descripcionventa:hover{
+	text-decoration: underline;
+    border: 3px;
+    color:#773685;
+}
+
+.primeraseccion img:hover{
+	
+	opacity: 90%;
+}
+
+.segundaseccion img:hover{
+	
+	opacity: 90%;
+}
+
+.terceraseccion img:hover{
+	
+	opacity: 90%;
+}
+
+.logo3:hover{
+	text-decoration: none;
+	background: #e4afb1;
+	color: #25d366;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+.footer{
+	text-align: center;
+   /*font-size: 0,9375em;*/
+	font-size: 13px;
+	
+	/*margin:0,3125rem;*/
+	/*margin-right: 0,625rem;
+	margin-left: 0,625rem;*/
+	margin-right: 10px;
+	margin-left: 10px;
+
+	/*padding: 0,3125rem;*/
+	padding: 5px;
+
+	/*border-radius: 0,125rem;*/
+	border-radius: 2px;
+}
+
+@media screen and (max-width: 600px){
+	.navegacion{
+			position: fixed;
+			left:20%;}
+
+	img{
+		width: 100%;
+	}
+
+	.logochico{
+		width: 80%;
+		margin-top:50px;
+	}
+
+.primeraseccion{
+	flex-direction: column;
+}
+
+.segundaseccion{
+	flex-direction: column;
+}
+
+.terceraseccion{
+	flex-direction: column;
+}
+
 }

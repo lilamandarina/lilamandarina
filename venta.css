@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: "roboto";
+}
+body{
+
+	background: #204e70;
+	font-size: 16px;
+	
+}
+/*estilos navegcion*/
+.navegacion{
+	margin-top: 0.625em;
+	display:flex;
+	align-content: right;
+
+	/*background: #819BC4;*/
+	background: white;
+	/*font-size: 25px;*/
+	font-size: 1.5625em;
+	/*margin-right: 10px;*/
+	margin-left: 0.625em;
+
+	position: fixed;
+	top: 0%;
+	left: 70%;
+	
+
+	border-radius: 10px;
+}
+
+.navegacion, ul, li{
+	display: inline-block;
+	
+}
+
+a{
+	list-style-type: none;
+	display: block;
+	color: black;
+	/*padding: 10px 5px;*/
+	padding:0.35em 0.35em;
+}
+
+.uno:hover{
+	background: #e4afb1;
+	color:#204e70;
+	border-radius: 8px;
+}
+
+/*logo whatsapp*/
+.float{
+	position:fixed;
+	width:60px;  
+	height:60px;
+	bottom:40px;               
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:70px;
+	text-align:center;
+    font-size:28px;
+	box-shadow: 1px 1px 2px #999;
+    z-index:100;
+}
+
+.float:hover{
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-radius: 3px;
+}
+
+/*logo de whatsapp*/
+.logo3:hover{
+	text-decoration: none;
+	background: #e4afb1;
+	color: #25d366;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+	text-align: center;
+	margin:0.625em;
+	padding:0.625em;
+	padding-bottom: 0;
+	padding-top: 20px;
+}
+.footer{
+	text-align: center;
+   /*font-size: 0,9375em;*/
+	font-size: 13px;
+	
+	/*margin:0,3125rem;*/
+	/*margin-right: 0,625rem;
+	margin-left: 0,625rem;*/
+	margin-right: 10px;
+	margin-left: 10px;
+
+	/*padding: 0,3125rem;*/
+	padding: 5px;
+
+	/*border-radius: 0,125rem;*/
+	border-radius: 2px;
+}
+
+/*productos descripcion*/
+
+
+.container{
+	position: relative;
+	height: auto;
+    border-radius: 10px;
+	margin:10px;
+
+}
+
+ .box1{
+	margin:10px;
+	display: flex;
+	justify-content: center;	
+
+}
+
+.box1 img{
+	border-radius: 4px;
+	margin:5px;
+}
+.descripcion{
+	font-size: 20px;
+	background: #ffffff;
+	padding: 20px;
+	margin: 5px;
+	border-radius: 4px;
+	text-align: center;
+	height: 150px;
+}
+
+.comocomprar{
+	text-align: center;
+	background: white;
+	font-size: 15px;
+	background: white;
+	margin: 0 3px;
+	padding: 5px;
+	margin:10px;
+	border-radius: 5px;
+
+}
+
+.mercadopago{
+margin-bottom:15px;
+}
+
+
+@media screen and (max-width: 600px){
+	.navegacion{
+			position: fixed;
+			left:20%;}
+
+	img{
+		width: 100%;
+	}
+.mercadopago{
+	width: 40%;
+}
+	.logochico{
+		width: 80%;
+		margin-top:50px;
+	}
+
+.box1{
+	flex-direction: column;
+	margin:10px;
+
+}
+
+.descripcion{
+	height: 160px;
+
+}
+
+}
