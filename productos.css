@@ -173,7 +173,8 @@ a{
 @media screen and (max-width: 600px){
 	.navegacion{
 			position: fixed;
-			left:20%;}
+			left:10%;
+		}
 
 	img{
 		width: 100%;
