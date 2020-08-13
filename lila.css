@@ -67,7 +67,7 @@ a{
 .main{
 	color:#ccc;
 	margin:0.625em;
-	font-size: 1.25em;
+	font-size: 1.125em;
 	padding: 0.3125em;
 	margin-top: 0;
 }
@@ -119,6 +119,8 @@ a{
 	
 	opacity: 90%;
 }
+
+
 .amigues{
 	color:#773685;
 	
@@ -133,7 +135,8 @@ a{
 }
 
 img{
-border-radius: 3px;
+border-radius: 5px;
+
 }
 .info{
 	display: flex;
@@ -175,7 +178,7 @@ border-radius: 3px;
 @media screen and (max-width: 600px){
 	.navegacion{
 			position: fixed;
-			left:10%;
+			left:4%;
 		}
 
 	img{

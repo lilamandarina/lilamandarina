@@ -185,7 +185,7 @@ a{
 @media screen and (max-width: 600px){
 	.navegacion{
 			position: fixed;
-			left:10%;
+			left:4%;
 		}
 
 	img{
