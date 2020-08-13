@@ -15,21 +15,16 @@ body{
 .navegacion{
 	margin-top: 0.625em;
 	display:flex;
+
 	align-content: right;
-
-	/*background: #819BC4;*/
-	background: white;
-	/*font-size: 25px;*/
+    background: white;
 	font-size: 1.5625em;
-	/*margin-right: 10px;*/
 	margin-left: 0.625em;
-
-	position: fixed;
+    position: fixed;
 	top: 0%;
 	left: 70%;
-	
-
 	border-radius: 10px;
+	border: 2px solid black;
 }
 
 .navegacion, ul, li{
@@ -40,8 +35,7 @@ body{
 a{
 	list-style-type: none;
 	display: block;
-	color: black;
-	/*padding: 10px 5px;*/
+	color:#773685;
 	padding:0.35em 0.35em;
 }
 
@@ -120,12 +114,13 @@ a{
 .descripcionventa{
 
     text-align: center;
+     color:#773685;
 }
 
 .descripcionventa:hover{
 	text-decoration: underline;
     border: 3px;
-    color:#773685;
+    color: #e4afb1;
 }
 
 .primeraseccion img:hover{

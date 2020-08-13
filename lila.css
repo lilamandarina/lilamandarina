@@ -30,6 +30,7 @@ body{
 	
 
 	border-radius: 10px;
+	border: 2px solid black;
 }
 
 .navegacion, ul, li{
@@ -40,7 +41,7 @@ body{
 a{
 	list-style-type: none;
 	display: block;
-	color: black;
+	color:#773685;
 	/*padding: 10px 5px;*/
 	padding:0.35em 0.35em;
 }
