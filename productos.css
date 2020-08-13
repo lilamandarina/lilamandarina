@@ -169,14 +169,17 @@ a{
 	/*border-radius: 0,125rem;*/
 	border-radius: 2px;
 }
+.footer p{
+	margin-bottom: 0.625em;
+}
 
 .texto{
 	color:#773685;
 	text-align: center;
 	font-weight: 700;
 	font-size: 1.875em;
-
-	border-radius: 0,125rem;
+    border-radius: 0,125rem;
+    padding: 0.625rem;
 }
 
 @media screen and (max-width: 600px){
