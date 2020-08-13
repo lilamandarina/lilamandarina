@@ -170,6 +170,15 @@ a{
 	border-radius: 2px;
 }
 
+.texto{
+	color:#773685;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.875em;
+
+	border-radius: 0,125rem;
+}
+
 @media screen and (max-width: 600px){
 	.navegacion{
 			position: fixed;
