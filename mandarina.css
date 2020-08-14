@@ -118,9 +118,6 @@ a{
 
 }
 
-
-
-
 .info{
 	grid-area: info;
 
@@ -130,9 +127,9 @@ a{
 	display: flex;
 	justify-content: center;
 	align-content: center;
-
-	
 	border-radius: 3px;
+	
+
 	/*border-radius: 0,125rem;*/
 }
 
