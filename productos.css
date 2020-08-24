@@ -90,6 +90,7 @@ a{
 	display: flex;
 	justify-content: center;
 	padding: 10px;
+	
 }
 
 .segundaseccion{
@@ -99,6 +100,12 @@ a{
 }
 
 .terceraseccion{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.cuartaseccion{
 	display: flex;
 	justify-content: center;
 	padding: 10px;
@@ -202,6 +209,11 @@ a{
 
 .terceraseccion{
 	flex-direction: column;
+}
+
+.cuartaseccion{
+	flex-direction: column;
+
 }
 
 }
